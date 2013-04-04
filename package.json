@@ -1,0 +1,23 @@
+{
+  "name": "swearwords-stream",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "fs-extra": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "sinon": "~1.6.0"
+  },
+  "description": "filter streams for those bad words",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha -R nyan"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "repository": "",
+  "author": "torbjorn.josefsson@gmail.com",
+  "license": "MIT"
+}
