@@ -43,7 +43,6 @@ describe('Swear Word Filter Stream',function(){
     writeStream.on("finish",function(){
       var before = fs.readFileSync('test/fixtures/bad-words.txt').toString();
       var after = fs.readFileSync('test/fixtures/after-filter.txt').toString();
-      console.log(after);
       expect(after).to.equal('goodsentence1 goodsentence2\n');
       done();
     });
